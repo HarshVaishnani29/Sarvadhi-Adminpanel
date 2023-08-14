@@ -1,0 +1,21 @@
+header {
+    --bs-info-rgb: 243, 243, 249;
+    --icon-size: 45px;
+}
+
+.nav .icon {
+    width: var(--icon-size);
+    height: var(--icon-size);
+
+}
+.nav .icon:hover{
+    background-color: rgba(var(--bs-secondary-rgb),0.2);
+}
+
+.header-profile-user{
+    width: 32px;
+    height: 32px;
+}
+.profile{
+    padding: 8px 14.4px;
+}

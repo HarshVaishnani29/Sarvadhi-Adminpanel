@@ -1,0 +1,40 @@
+.add-user-modal {
+    .modal-content {
+      border: none;
+      border-radius: 10px;
+    }
+  
+    .modal-header {
+      background-color: #007bff;
+      color: white;
+      border-bottom: none;
+      border-radius: 10px 10px 0 0;
+    }
+  
+    .modal-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  
+    .custom-input {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 1rem;
+    }
+  
+    .custom-button {
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  
+    .custom-button:hover {
+      background-color: #0056b3;
+    }
+  }
+  

@@ -1,0 +1,104 @@
+:root {
+    --icon-size: 35px;
+    --line-height: 30px;
+}
+
+.icons {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background-color: rgb(10, 179, 156);
+    line-height: var(--line-height);
+    color: rgb(17, 48, 43);
+}
+
+.icons-1 {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background-color: rgb(240, 101, 72);
+    line-height: var(--line-height);
+    color: rgb(73, 23, 13);
+}
+
+.photo {
+    height: 20px;
+    width: 50px;
+}
+
+.icons-2 {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background-color: rgb(53, 119, 241);
+    line-height: var(--line-height);
+    color: rgb(255, 255, 255);
+}
+
+.ic {
+    margin-left: 9.5px;
+}
+
+.ico img {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    margin-left: 0px;
+}
+
+.rmdp-container input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    width: 150px;
+}
+
+.rmdp-range {
+    background-color: darkgrey;
+    box-shadow: 0 0 3px transparent;
+    color: black;
+}
+
+.rmdp-day .rmdp-today span {
+    background-color: #405189;
+}
+
+.rmdp-range.start,
+.rmdp-range.end {
+    background-color: #405189;
+    color: #fff;
+}
+
+.rmdp-input:focus {
+    border: 1px solid transparent;
+    box-shadow: 0 0 2px transparent;
+    outline: none !important;
+}
+
+element.style {
+    visibility: hidden;
+}
+
+.simplebar-track.simplebar-vertical {
+    top: 0;
+    width: 11px;
+}
+
+.simplebar-track.simplebar-horizontal {
+    height: 11px;
+    left: 0;
+}
+
+.simplebar-track {
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.simplebar-height-auto-observer,
+.simplebar-track {
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+}
+
+.roll img {
+    width: 3rem;
+    height: 3rem;
+}

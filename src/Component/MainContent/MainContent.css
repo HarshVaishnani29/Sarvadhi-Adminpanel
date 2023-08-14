@@ -1,0 +1,16 @@
+.col.m {
+    margin-left: 300px;
+    transition: margin-left 0.3s ease-in-out;
+  }
+  
+  .hide {
+    margin-left: 0;
+    width: 0;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+  
+  .show {
+    transition: margin-left 0.3s ease-in-out;
+  }
+  
